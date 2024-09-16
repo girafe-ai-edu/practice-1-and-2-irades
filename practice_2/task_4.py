@@ -16,10 +16,6 @@ def sum_of_digits():
     except ValueError as ve:
         print(f"Error: {ve}")
     else:
-        # a = user_input[0]
-        # b = user_input[1]
-        # c = user_input[2]
-        # d = user_input[3]
         a, b, c, d = user_input
         resulting_sum = sum(int(x) for x in user_input)
         answer = f"{a} + {b} + {c} + {d} = {resulting_sum}"
